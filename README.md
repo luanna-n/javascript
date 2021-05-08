@@ -4,5 +4,5 @@ Olá! Bem vindo ao meu repositório de projetos em JavaScript. Aqui ficam reunid
 
 
 
-**Projeto #1** -
+**Projeto #1** - Aula de introdução ao JavaScript - Rafael Galleani :man_technologist: - Comandos e funções básicas
 
