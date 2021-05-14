@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
 
     <!--responsividade-->
@@ -13,18 +14,21 @@
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <title>NETFLIX CLONE</title>
+    <title>CODEFLIX</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">
+                CODEFLIX
+                <i class="fas fa-code"></i>
+            </h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#ferramentas">Ferramentas</a>
+                <a href="#linguagens">Linguagens</a>
+                <a href="#plataformas">Plataformas</a>
             </nav>
         </div>
     </header>
@@ -32,15 +36,17 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <h3 class="titulo">DIGITAL INNOVATION ONE</h3>
+                <p class="descricao">
+                    Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo construindo projetos em conjunto com a nossa comunidade colaborativa de +350 mil desenvolvedores.
+                </p>
             </div>
             <div class="botoes">
-                <button role="button" class="botao">
+                <button role="button" class="botao" onclick="window.open('https://digitalinnovation.one/')">
                     <i class="fas fa-play"></i>
-                ASSISTIR AGORA
+                ACESSAR AGORA
             </button>
-                <button role="button" class="botao">
+                <button role="button" class="botao" onclick="window.open('https://digitalinnovation.one/faq')">
                     <i class="fas fa-info-circle"></i>
                 MAIS INFORMAÇÕES
             </button>
@@ -50,44 +56,183 @@
     </main>
 
     <div class="carrossel-filmes">
+        <h3 class="titulo-carrossel" id="ferramentas">
+            <i class="fas fa-tools"></i> FERRAMENTAS
+        </h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                <a href="https://code.visualstudio.com/" target="_blank">
+                    <img class="box-filme" src="img/f-vscode.png" alt="" srcset="">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+            <div class=" item">
+                <a href="https://git-scm.com/downloads" target="_blank">
+                    <img class="box-filme " src="img/f-git.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://github.com/" target="_blank">
+                    <img class="box-filme " src="img/f-github.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://fontawesome.com/" target="_blank">
+                    <img class="box-filme " src="img/f-font-awesome.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://freecomputerbooks.com/" target="_blank">
+                    <img class="box-filme " src="img/f-free-computer-books.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://color.adobe.com/pt/create" target="_blank">
+                    <img class="box-filme " src="img/f-adobe-color.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://fonts.google.com/" target="_blank">
+                    <img class="box-filme " src="img/f-google-fonts.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://www.lipsum.com/" target="_blank">
+                    <img class="box-filme " src="img/f-loremipsum.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://tinypng.com/" target="_blank">
+                    <img class="box-filme " src="img/f-tinypng.png " alt=" " srcset=" ">
+                </a>
             </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+            <div class="item ">
+                <a href="https://typora.io/" target="_blank">
+                    <img class="box-filme " src="img/f-typora.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://whatismyipaddress.com/ip-lookup" target="_blank">
+                    <img class="box-filme " src="img/f-ip-address.png " alt=" " srcset=" ">
+                </a>
             </div>
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/938a3dc87b.js"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <div class="carrossel-filmes ">
+        <h3 class="titulo-carrossel " id="linguagens">
+            <i class="far fa-file-code "></i> LINGUAGENS
+        </h3>
+        <div class="owl-carousel owl-theme ">
+            <div class="item ">
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-html-css.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-javascript.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/sql/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-sql.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/cs/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-c.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/java/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-java.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/python/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-python.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/r/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-r.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/php/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-php.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3schools.com/cpp/default.asp" target="_blank">
+                    <img class="box-filme " src="img/l-cmais.png " alt=" " srcset=" ">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrossel-filmes ">
+        <h3 class="titulo-carrossel " id="plataformas">
+            <i class="fas fa-laptop-code "></i> PLATAFORMAS
+        </h3>
+        <div class="owl-carousel owl-theme ">
+            <div class="item ">
+                <a href="https://www.udemy.com/" target="_blank">
+                    <img class="box-filme " src="img/p-udemy.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.coursera.org/" target="_blank">
+                    <img class="box-filme " src="img/p-coursera.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.w3docs.com/" target="_blank">
+                    <img class="box-filme " src="img/p-w3docs.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://code.org/" target="_blank">
+                    <img class="box-filme " src="img/p-code-org.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.edulivre.org.br/" target="_blank">
+                    <img class="box-filme " src="img/p-edulivre.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://recode.org.br/" target="_blank">
+                    <img class="box-filme " src="img/p-recode.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.uaitec.mg.gov.br/" target="_blank">
+                    <img class="box-filme " src="img/p-uaitec.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.algaworks.com/" target="_blank">
+                    <img class="box-filme " src="img/p-algaworks.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://www.voitto.com.br/" target="_blank">
+                    <img class="box-filme " src="img/p-voitto.png " alt=" " srcset=" ">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="https://digitalinnovation.one/" target="_blank">
+                    <img class="box-filme " src="img/p-dio.png " alt=" " srcset=" ">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/938a3dc87b.js "></script>
+    <script src="js/owl/jquery.min.js "></script>
+    <script src="js/owl/owl.carousel.min.js "></script>
+    <script src="js/main.js "></script>
 
 </body>
 

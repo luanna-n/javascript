@@ -1,5 +1,5 @@
 :root {
-    --vermelho: #e50914;
+    --vermelho: #ebec7d;
     --preta: #141414;
 }
 
@@ -18,7 +18,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Arial', Times, serif;
+    font-family: 'Share Tech Mono', monospace;
     color: white;
 }
 
@@ -38,8 +38,8 @@ header .container {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: "Arial Black", Times;
-    font-size: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 55px;
 }
 
 header nav a {
@@ -49,7 +49,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #fff;
+    color: VAR(--vermelho);
 }
 
 
@@ -57,7 +57,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%), url('../img/capa-house.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)100%), url('../img/capa-dio.png');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -75,23 +75,25 @@ header nav a:hover {
 .filme-principal .titulo {
     margin-top: 15%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: lighter;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .botao {
     background-color: rgba(0, 0, 0, .5);
+    font-family: 'Share Tech Mono', monospace;
     border: none;
-    color: white;
+    color: VAR(--vermelho);
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 13px;
     cursor: pointer;
     transition: .3s ease all;
     margin-left: 20px;
 }
 
 .botao:hover {
-    background-color: white;
+    background-color: VAR(--vermelho);
     color: black;
 }
 
@@ -116,4 +118,22 @@ header nav a:hover {
 
 .carrossel-filmes {
     margin-top: 5px;
+}
+
+.carrossel-filmes .titulo-carrossel {
+    margin-left: 25px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--vermelho);
+}
+
+#ferramentas {
+    margin-top: 20px;
+}
+
+.item img:hover {
+    opacity: 0.2;
+    transition: all 1s ease;
 }
