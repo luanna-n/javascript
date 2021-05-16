@@ -33,11 +33,11 @@ function drawFood() {
 //evento de escuta
 document.addEventListener('keydown', update);
 
-function update(event) {
-    if (event.keyCode == 37 && direction != "right") direction = "left"; //adicionar o && impede que ela faça o movimento oposto por cima de si mesma
-    if (event.keyCode == 38 && direction != "down") direction = "up";
-    if (event.keyCode == 39 && direction != "left") direction = "right";
-    if (event.keyCode == 40 && direction != "right") direction = "down";
+function update(event) { //adicionar o && impede que ela faça o movimento oposto por cima de si mesma
+    if (event.keyCode == 37 && direction != 'right') direction = 'left';
+    if (event.keyCode == 38 && direction != 'down') direction = 'up';
+    if (event.keyCode == 39 && direction != 'left') direction = 'right';
+    if (event.keyCode == 40 && direction != 'up') direction = 'down';
 }
 
 //criar o jogo
@@ -60,8 +60,12 @@ function iniciarJogo() {
     if (direction == "up") snakeY -= box;
     if (direction == "down") snakeY += box;
 
-    //retirar o ultimo elemento do array
-    snake.pop();
+    if (snakeX != food.x || snakeY != food.y) {
+        snake.pop();
+    } else {
+        food.x = Math.floor(Math.random() * 15 + 1) * box;
+        food.y = Math.floor(Math.random() * 15 + 1) * box;
+    }
 
     let newHead = {
         x: snakeX,
