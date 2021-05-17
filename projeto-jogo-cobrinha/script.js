@@ -82,4 +82,4 @@ function iniciarJogo() {
     snake.unshift(newHead);
 }
 
-let jogo = setInterval(iniciarJogo, 100); //intervalo de tempo 100 milissegundos
+let jogo = setInterval(iniciarJogo, 150); //intervalo de tempo 100 milissegundos
