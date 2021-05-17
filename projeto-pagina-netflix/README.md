@@ -4,7 +4,7 @@ Este repositório contém um clone da página inicial do Netflix. O projeto foi 
 
 Seguindo a sugestão do instrutor Felipe Aguiar, personalizei o projeto inicial aproveitando a premissa básica da página da Netflix para criar o meu **CODEFLIX** :woman_facepalming: (~~eu sei, poderia ter um nome mais criativo mas o óbvio tem suas próprias vantagens~~ :wink:). 
 
-![codeflix_1076_600](C:\workspace\PROJETOS-DIO\codeflix_1076_600.png)
+![codeflix_1076_600](https://github.com/luanna-n/javascript/blob/master/codeflix_1076_600.png?raw=true)
 
 A ideia por trás do **CODEFLIX** é reunir ferramentas, tutoriais a respeito de certas linguagens de programação e algumas plataformas que eu achei interessantes nesse meu processo de aprendizagem contínua, e agrupá-los num mesmo lugar.
 
