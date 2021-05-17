@@ -1,5 +1,5 @@
 :root {
-    --vermelho: #ebec7d;
+    --vermelho: #ebe983da;
     --preta: #141414;
 }
 
@@ -123,14 +123,15 @@ header nav a:hover {
 .carrossel-filmes .titulo-carrossel {
     margin-left: 25px;
     padding-bottom: 10px;
-    font-size: 25px;
+    padding-top: 0px;
+    font-size: 20px;
     font-weight: lighter;
     font-family: 'Share Tech Mono', monospace;
     color: var(--vermelho);
 }
 
-#ferramentas {
-    margin-top: 20px;
+#plataformas {
+    margin-top: 12px;
 }
 
 .item img:hover {
