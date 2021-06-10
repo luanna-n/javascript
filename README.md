@@ -12,7 +12,7 @@ Olá! Bem vindo ao meu repositório de projetos em JavaScript. Aqui ficam reunid
 
 **Projeto #3** - Aula de introdução ao Bootstrap - Rafael Galleani :man_technologist: - Aplicação do framework para a criação de uma página simples, responsiva e rápida. Abaixo, foto da minha personalização do conteúdo aprendido na aula.
 
-![bootstrap_521_972]https://github.com/luanna-n/javascript/blob/master/bootstrap_521_972.png
+![bootstrap_521_972](https://github.com/luanna-n/javascript/blob/master/bootstrap_521_972.png?raw=true)
 
 **Projeto #4** - Recriando o jogo da cobrinha - Gabriela Pinheiro :woman_technologist:
 
