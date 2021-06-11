@@ -20,7 +20,13 @@ function criarBG() {
 
 function criarCobrinha() {
     for (i = 0; i < snake.length; i++) {
-        context.fillStyle = "green";
+        var gradientGreen = context.createLinearGradient(20, 0, 500, 0);
+        gradientGreen.addColorStop(0, "green");
+        gradientGreen.addColorStop(.5, "black");
+        gradientGreen.addColorStop(1, "green");
+        context.fillStyle = gradientGreen;
+
+        //context.fillStyle = "green";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
